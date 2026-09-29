@@ -1,0 +1,17 @@
+{
+  "name": "zero-context-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@discord/embedded-app-sdk": "latest",
+    "socket.io-client": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  }
+}

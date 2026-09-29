@@ -1,0 +1,14 @@
+{
+  "name": "zero-context-server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "socket.io": "latest"
+  }
+}
